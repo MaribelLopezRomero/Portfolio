@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@500&family=Kavivanar&family=Libre+Barcode+39+Text&display=swap"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap"
@@ -66,13 +67,15 @@
         </li>
       </ul>
     </nav>
-    <h1 class="header__title">Maribel López</h1>
-    <p class="header__paragraph">Desarrolladora Front-end</p>
+    <div class="header__container">
+      <h1 class="header__title">Maribel López</h1>
+      <p class="header__paragraph">Desarrolladora Front-end</p>
+    </div>
   </header>
 
   <main class= "main">
       <section class="aboutMe">
-          <h1 class="aboutMe__title">Sobre mi</h2>
+          <h1 class="aboutMe__title">¿Quien soy?</h2>
             <div  class="about__image1" >
                <img
               src="./assets/images/foto.png"
@@ -391,40 +394,67 @@
       
   </section>
   </main>
-  <footer class="footer">
-          <a class="footer__buttom" href="#header" title="Ir al inicio de la pagina" alt="Ir al inicio de la pagina"> <img
-                          class="footer__buttomimag" src="./assets/images/ico-arrow.svg" /></a>
+  <section class="contact" id="contact">
+    <h2 class="contact__title">Contacto</h2>
+    <p class="contact__description">
+      Si te han gustado mis proyectos y quieres que hablemos de desarollo web,
+      quizás quieres darme feedback, o mejor aún, estás buscando un perfil
+      frontend junior y crees que mi perfil profesional encaja en lo que buscas,
+      ¡no dudes en contactar conmigo!
+    </p>
+    <ul class="contact__list">
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="https://www.linkedin.com/in/yamiramartinguzman/"
+          alt="Icono de Linkedin"
+          title="Perfil de Linkedin de Maribel"
+          target="_blank"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+      </li>
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="https://github.com/ymartinguzman"
+          alt="Icono de Github"
+          title="Perfil de Github de Maribel"
+          target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </li>
 
-          <nav class="footer__menu1">
-                  <ul class="footer__menu__list">
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="ir a Articles"
-                                          alt="Enlace Articles">Articles</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Books"
-                                          alt="Enlace a Books">Books</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Events"
-                                          alt="Enlace a Events">Events</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Reasons"
-                                          alt="Enlace a Reasons">Reasons</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Tips"
-                                          alt="Enclace a Tips">Tips</a></li>
-                  </ul>
-          </nav>
-          <nav class="footer__menu2">
-                  <ul class="footer__menu__list2">
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="ir a Twitter"
-                                          alt="Enlace a Twitter">Twitter</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Instagram"
-                                          alt="Enlace a Instagram">Instagram</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Mastodon.social"
-                                          alt="Enlace a Mastodon.social">Mastodon.social</a>
-                          </li>
-                  </ul>
-          </nav>
-          <small class="footer__small">
-                  <span class="footer__small__copyright"> ©2017</span>
-                  <span class="footer__small__components">we ❤️ components </span>
-          </small>
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="mailto:yamiramartinguzman@gmail.com"
+          alt="Icono de email"
+          title="Enviar email a Yamira"
+          target="_blank"
+          ><i class="bx bxs-envelope"></i
+        ></a>
+      </li>
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href=""
+          alt="Icono de descargar CV"
+          title="Descargar CV"
+          target="_blank"
+        >
+          <i class="fas fa-download"></i
+        ></a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <small class="footer__small">
+      <span class="footer__small__copyright"> ©2017</span>
+      <span class="footer__small__components">we ❤️ components </span>
+    </small>
   </footer>
+
   <script src="./assets/js/main.js"></script>
 </body>
 
