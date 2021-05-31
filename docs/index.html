@@ -3,86 +3,492 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1 " />
-  <title>Anonymous Proxy</title>
-  <link rel="stylesheet" href="./assets/css/main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maribel López</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
     rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@500&family=Kavivanar&family=Libre+Barcode+39+Text&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
 
 <body>
   <header id="header" class="header">
-          <a class="header__link" href="https://adalab.es/" title="Menu" alt="Desplegar menu"><img
-                          src="./assets/images/ico-menu.svg" alt="Desplegar menu" title="Menu"></a>
-          <h1 class="header__title">Anonymous proxy</h1>
-          <p class="header__paragraph">In hac habitasse platea dictumst.</p>
-
-          <a class="header__button" href="#3reasontopurchase" title="Ir a 3 Reasons To Purchase"
-                  alt="Ir a 3 Reasons To Purchase"><img class="header__buttonimg"
-                          src="./assets/images/ico-scroll-down.svg" /></a>
+    <nav class="header__menuNav">
+      <ul class="header__menuNav__list">
+        <li>
+          <a
+            class="headerMenu__link"
+            href="#header"
+            alt="Haz clic aquí para ir al principio de la página"
+            title="Haz clic aquí para ir al principio de la página"
+            >Inicio</a
+          >
+        </li>
+        <li>
+          <a
+            class="headerMenu__link"
+            href="#about"
+            alt=""
+            title="Haz clic aquí para mas informacion sobre mi"
+            >Sobre mi</a
+          >
+        </li>
+        <li>
+          <a
+            class="headerMenu__link"
+            href="#projects"
+            alt=""
+            title="Haz clic aquí para ir a mis proyectos"
+            >Proyectos</a
+          >
+        </li>
+        <li>
+          <a
+            class="headerMenu__link"
+            href="#contact"
+            alt=""
+            title="Haz clic aquí para ir a mi contacto"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="header__container">
+      <h1 class="header__title">Maribel López</h1>
+      <p class="header__paragraph">Desarrolladora Front-end</p>
+    </div>
   </header>
-  <main>
-      <section class="main__section-one">
-          <small class="main__section-one__small">Insomnia tips</small>
-          <h2 class="main__section-one__title">Looking through a window</h2>
-          <p class="main__section-one__paragraph">Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al
-              luctus ex diam nec lectus. Vivamus
-              semper
-              sodales rutrum. </p>
-          <button class="main__section-one__button">Go</button>
-      </section>
-      <section id="3reasontopurchase" class="main__section-two">
-          <h2 class="main__section-two__title">3 reasons to purchase</h2>
-          <ul class="main__section-two__list">
-              <li class="main__section-two__item1">
-                  <h3 class="main__section-two__item1__title ">Ut sed metus</h3>
-                  <p class="main__section-two__item1__paragraph "> Lorem ipsum dolor sit amet, consecteur</p>
-              </li>
-              <li class="main__section-two__item2">
-                  <h3 class="main__section-two__item2__title">Curabitur ac erat</h3>
-                  <p class="main__section-two__item2__paragraph "> Mauris mattis urna quis lorem molestie.</p>
-              </li>
-              <li class="main__section-two__item3">
-                  <h3 class="main__section-two__item3__title">Morbi dictum.</h3>
-                  <p class="main__section-two__item3__paragraph "> Aliquam in dolor et dolor tincidunt.</p>
-              </li>
-          </ul>
-          <button class="main__section-button">More reason</button>
-      </section>
-  </main>
-  <footer class="footer">
-          <a class="footer__buttom" href="#header" title="Ir al inicio de la pagina" alt="Ir al inicio de la pagina"> <img
-                          class="footer__buttomimag" src="./assets/images/ico-arrow.svg" /></a>
 
-          <nav class="footer__menu1">
-                  <ul class="footer__menu__list">
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="ir a Articles"
-                                          alt="Enlace Articles">Articles</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Books"
-                                          alt="Enlace a Books">Books</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Events"
-                                          alt="Enlace a Events">Events</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Reasons"
-                                          alt="Enlace a Reasons">Reasons</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Tips"
-                                          alt="Enclace a Tips">Tips</a></li>
-                  </ul>
-          </nav>
-          <nav class="footer__menu2">
-                  <ul class="footer__menu__list2">
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="ir a Twitter"
-                                          alt="Enlace a Twitter">Twitter</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Instagram"
-                                          alt="Enlace a Instagram">Instagram</a></li>
-                          <li><a class="footer__menu__link" href="https://adalab.es/" title="Ir a Mastodon.social"
-                                          alt="Enlace a Mastodon.social">Mastodon.social</a>
-                          </li>
-                  </ul>
-          </nav>
-          <small class="footer__small">
-                  <span class="footer__small__copyright"> ©2017</span>
-                  <span class="footer__small__components">we ❤️ components </span>
-          </small>
+  <main class= "main">
+      <section id = "about" class="aboutMe">
+          <h1 class="aboutMe__title">¿Quien soy?</h2>
+            <div  class="about__image1" >
+               <img
+              src="./assets/images/avatar.jpg"
+              alt="Foto Maribel López"
+              title="Maribel López"
+              class="about__image"
+            />
+          </div> 
+          <section class="aboutMe__description ">
+            
+            <p>
+              
+              ¡Hola! Soy Maribel, <span class = "aboutMe__description__span"> desarrolladora Front-end junior </span>, especializada en Javascript, React, HTML y CSS y aprendiendo tecnologias de back y bases de datos como NodeJS, Java, SQL, MongoDB entre otras.
+
+            </p>
+
+            <p>
+              
+              Soy una persona <span class = "aboutMe__description__span"> emprendedora, autodidacta y con gran capacidad de aprendizaje</span>, empecé a tener curiosidad por el mundo de la programación a raiz de trabajar como técnica de selección IT, y por ello decidi estudiar Front-end y he descubierto que me apasiona y quiero dedicarme a ello.
+
+
+
+            </p>
+            
+          <p>
+            
+            Gracias a mis estudios en<span class = "aboutMe__description__span"> psicologia, en el ambito de lo social, los recursos humanos y el género </span>  y mi experiencia laboral en estas áreas, tengo un perfil multidisciplinar, habiendo desarrollado muchas competencias que sin duda me sirven a dia de hoy para afrontar cualquier reto, competencias como la flexibilidad, trabajo en equipo, comunicacion, tolerancia a la incertidumbre y adaptacion a los cambios hacen que me sienta cómoda trabajando y pueda afrontar el trabajo de manera productiva.
+
+          </p>
+        
+          </section>
+
+              <aside class= "aboutMe__aside">
+
+                <ul class= "aboutMe__aside__iconelist">
+                  <li class= "icon">
+                  <i class="bx bxl-html5 " alt="Icono de HTML5" title="HTML5"></i>
+                  <spam>HTML5 </spam>
+                </li>
+                  <li class= "icon">
+                    <i class="bx bxl-css3" alt="Icono de CSS3" title="CSS3"></i>
+                    CSS3
+                  </li>
+                  <li class= "icon">
+                  <i class="bx bxl-javascript" alt="Icono de JavaScript" title="JavaScript"></i>
+                  JavaScript
+                </li>
+                  <li class= "icon">   
+                    <i class="bx bxl-react" alt="Icono de React" title="React"></i>
+                    React
+                  </li>
+                  <li class= "icon">
+                
+                    <i class="bx bxl-sass" alt="Icono de Sass" title="Sass">  </i>
+                    SASS
+                  </li>
+                   
+                   
+                    <li class= "icon">
+                    
+                    <i class="bx bxl-git"alt="Icono de Git" title="Git"></i>
+                    Git
+                  </li>
+
+
+                  <li class= "icon">
+                    
+                    <i class="fab fa-node" alt="Icono de Nodejs" title="NodeJS"></i>
+                    NodeJS
+                  </li>
+
+                  <li class= "icon">
+                    
+                    <i class="fab fa-java" alt="Icono de Java" title="Java"></i>
+                    Java
+                  </li>
+                 
+
+                  
+                 
+                </ul>
+              </aside>
+              
+             
+      </section>
+
+      
+     
+  <section id="projects" class="main__projects">
+
+      <h2 class="main__projects__title">Proyectos</h2>
+      <ul class="main__projects__list">
+          <li class="main__projects__card">
+              <div class= " main__project__container js-image" id="0">
+              <img class= "main__projects__cardImage " 
+              src= "../assets/images/RickyMorty1.png"
+              title= ""
+              alt= ""
+              />
+              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+          
+              <ul class= "main__projects__thechList">
+                  <li class= "main__projects__thechItem" >React</li>
+                  <li class= "main__projects__thechItem">JavaScript</li>
+                  <li class= "main__projects__thechItem">HTML5</li>
+                  <li class= "main__projects__thechItem">CSS</li>
+              </ul>
+              <a
+              href=""
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href=""
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+
+          <li class="main__projects__card"  >
+              <div class= "main__project__container js-image" id="1" >
+              <img class= "main__projects__cardImage " 
+            
+              src= "../assets/images/anonimus1.png"
+              title= ""
+              alt= ""
+              />
+              <p class="main__projects__carddescription js-text"> Web Anonymous Porxy responsive.</p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Anonymous Proxy</h3>
+          
+              <ul class= "main__projects__thechList">
+                  <li class= "main__projects__thechItem">HTML5</li>
+                  <li class= "main__projects__thechItem">CSS</li>
+                  <li class= "main__projects__thechItem">SASS</li>
+                  <li class= "main__projects__thechItem">Scrum</li>
+              </ul>
+              <a
+              href="https://maribellopezromero.github.io/Anonymous-Proxy/"
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href="https://github.com/MaribelLopezRomero/Anonymous-Proxy"
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+
+          <li class="main__projects__card">
+              <div class= "main__project__container js-image" id="2" >
+              <img class= "main__projects__cardImage " 
+              src= "../assets/images/montgomeryCards1.png"
+              title= "Proyecto montgomery cards"
+              alt= "Proyecto montgomery cards"
+              />
+              <p class="main__projects__carddescription js-text"> Web app que permite crear tarjetas de presentación de forma interactiva.</p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Montgomery-Cards</h3>
+          
+              <ul class= "main__projects__thechList">
+                  <li class= "main__projects__thechItem">JavaScript</li>
+                  <li class= "main__projects__thechItem">HTML5</li>
+                  <li class= "main__projects__thechItem">CSS</li>
+                  <li class= "main__projects__thechItem">SASS</li>
+                  <li class= "main__projects__thechItem">Scrum</li>
+              </ul>
+              <a
+              href="https://maribellopezromero.github.io/Montgomery-Cards/"
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href="https://github.com/MaribelLopezRomero/Montgomery-Cards"
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+
+          <li class="main__projects__card">
+              <div class= "main__project__container js-image" id="3" >
+              <img class= "main__projects__cardImage " 
+              
+              src= "../assets/images/AwesomeReact.png"
+              title= "Proyecto Badalabers"
+              alt= "Proyectos Badalabers"
+              />
+              <p class="main__projects__carddescription js-text"> Refactoriazacion de codigo heradado del proyecto Montgomery Cards con React. </p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Badalabers</h3>
+          
+              <ul class= "main__projects__thechList">
+                  <li class= "main__projects__thechItem">React</li>
+                  <li class= "main__projects__thechItem">JavaScript</li>
+                  <li class= "main__projects__thechItem">HTML5</li>
+                  <li class= "main__projects__thechItem">CSS</li>
+                  <li class= "main__projects__thechItem">SASS</li>
+                  <li class= "main__projects__thechItem">Scrum</li>
+              </ul>
+              <a
+              href="https://maribellopezromero.github.io/Montgomery-Cards/"
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href="https://github.com/MaribelLopezRomero/Montgomery-Cards"
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+
+          <li class="main__projects__card"  >
+              <div class= "  main__project__container js-image"id="4" >
+              <img class= "main__projects__cardImage " 
+              src= "../assets/images/mareaCoders.png"
+              title= "Proyecto Marea Coders"
+              alt= "Proyecto Marea Coders"
+              />
+              <p class="main__projects__carddescription js-text"> Web grupal responsive. Con diferentes navegaciones. </p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Marea Coders</h3>
+          
+              <ul class= "main__projects__thechList">
+                <li class= "main__projects__thechItem">HTML5</li>
+                <li class= "main__projects__thechItem">CSS</li>
+                <li class= "main__projects__thechItem">SASS</li>
+                <li class= "main__projects__thechItem">Scrum</li>
+              </ul>
+              <a
+              href="https://maribellopezromero.github.io/Marea-Coder/"
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href="https://github.com/MaribelLopezRomero/Marea-Coder"
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+          <li class=" main__projects__card">
+              <div class= "main__project__container js-image" id="5" >
+              <img class= "main__projects__cardImage " 
+              
+              src= "../assets/images/montgomeryCards1.png"
+              title= ""
+              alt= ""
+              />
+              <p class="main__projects__carddescription js-text"> Web app que busca series y filtra series, trayendoselas de un API y guardandolas en el local storage</p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Buscador de series</h3>
+          
+              <ul class= "main__projects__thechList">
+                  <li class= "main__projects__thechItem">JavaScript</li>
+                  <li class= "main__projects__thechItem">HTML5</li>
+                  <li class= "main__projects__thechItem">CSS</li>
+              </ul>
+              <a
+              href="https://maribellopezromero.github.io/Buscador-de-series/?input=friends"
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href="https://github.com/MaribelLopezRomero/Buscador-de-series"
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+          <li class=" main__projects__card"  >
+              <div class= "main__project__container js-image" id="6">
+              <img class= "main__projects__cardImage " 
+            
+              src= "../assets/images/RickyMorty1.png"
+              title= ""
+              alt= ""
+              />
+              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que gestionar los correos que devuleve un api, filtrando y borrandolos. </p>  
+              </div>
+              <h3 class="main__projects__cardTitle ">Gmail-React</h3>
+          
+              <ul class= "main__projects__thechList">
+                  <li class= "main__projects__thechItem" >React</li>
+                  <li class= "main__projects__thechItem">JavaScript</li>
+                  <li class= "main__projects__thechItem">HTML5</li>
+                  <li class= "main__projects__thechItem">CSS</li>
+              </ul>
+              <a
+              href=""
+              class="main__projects__web"
+              alt="Enlace a la web"
+              title="Ver la web"
+              target="_blank"
+              >Web</a
+            >
+            <a
+              href=""
+              class="main__projects__code"
+              alt="Enlace a Github"
+              title="Ver código"
+              target="_blank"
+              >Github</a
+            >
+
+          </li>
+      </ul>
+      
+  </section>
+  </main>
+  <section class="contact" id="contact">
+    <h2 class="contact__title">Contacto</h2>
+    <p class="contact__description">
+      Si te han gustado mis proyectos o mi perfil y te interesa que hablemos sobre
+      desarrollo web para darme feedback y hacer colaboraciones, o si estás
+      buscando un perfil como el mio y crees que mi encajo en lo que buscas, ¡no
+      dudes en contactar conmigo!.
+    </p>
+    <ul class="contact__list">
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="https://www.linkedin.com/in/maribellopezromero/"
+          alt="Icono de Linkedin"
+          title="Perfil de Linkedin de Maribel"
+          target="_blank"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+      </li>
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="https://github.com/MaribelLopezRomero/"
+          alt="Icono de Github"
+          title="Perfil de Github de Maribel"
+          target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </li>
+
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="mailto:maribel.romero.miv@gmail.com"
+          alt="Icono de email"
+          title="Enviar email a Maribel"
+          target="_blank"
+          ><i class="bx bxs-envelope"></i
+        ></a>
+      </li>
+      <li class="contact__redes">
+        <a
+          class="contact__icono"
+          href="https://drive.google.com/file/d/1eJjd-FcQDFz70Puw3f2Zudt1gRzzbKQX/view?usp=sharing"
+          alt="Icono de descargar CV"
+          title="Descargar CV"
+          target="_blank"
+        >
+          <i class="fas fa-download"></i
+        ></a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <small class="footer__small">
+      <span class="footer__small__copyright"> ©2021</span>
+      <span class="footer__small__name">Maribel López Romero </span>
+    </small>
   </footer>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
