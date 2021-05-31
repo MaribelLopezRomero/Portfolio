@@ -1,6 +1,6 @@
 .main__projects {
   // background: $color-main-section-two;
-  background-color: #faf6fe;
+  background-color: $color-background;
   width: 100%;
   @media all and (min-width: 768px) {
   }
@@ -8,13 +8,12 @@
   }
 }
 .main__projects__title {
-  color: $color-secundary;
+  color: #20769e;
   font-family: $font-family-title;
+  font-size: 24px;
   text-transform: capitalize;
   text-align: center;
   // width: 90.625%;
-  height: 30px;
-  font-size: 24px;
   font-weight: bold;
   margin-top: 30px;
   margin-left: 4.687%;
@@ -22,15 +21,17 @@
   @media all and (min-width: 768px) {
     width: 58.593%;
     height: 45px;
-    font-size: 26px;
+    font-size: 45px;
     margin-left: 20.572%;
     margin-right: 20.833%;
     margin-bottom: 45px;
+    margin-top: 60px;
+    padding-top: 30px;
   }
   @media all and (min-width: 1280px) {
     width: 57.0312%;
     height: 45px;
-    font-size: 32px;
+    font-size: 45px;
     margin-left: 21.4843%;
     margin-right: 21.4843%;
     margin-top: 60px;
@@ -86,18 +87,21 @@
 }
 .main__projects__carddescription {
   font-size: 16px;
+  text-align: center;
 }
 .main__projects__thechList {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  flex-wrap: wrap;
+  // justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
 .main__projects__thechItem {
   color: #20769e;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-bottom: 15px;
 }
 .main__projects__web {
   text-decoration: none;

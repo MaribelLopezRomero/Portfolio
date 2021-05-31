@@ -23,13 +23,14 @@
   margin-right: 4.687%;
   margin-bottom: 15px;
   @media all and (min-width: 768px) {
-    font-size: 50px;
+    font-size: 45px;
     margin-left: 5.078%;
     margin-right: 5.078%;
     margin-bottom: 15px;
   }
   @media all and (min-width: 1280px) {
-    font-size: 70px;
+    font-size: 45px;
+    margin-top: 30px;
   }
 }
 .about__image1 {
@@ -46,7 +47,6 @@
 }
 
 .aboutMe__description {
-  color: $color-terciary;
   font-family: $font-family;
   font-size: 18px;
   line-height: 1.67;
@@ -68,6 +68,10 @@
   }
 }
 
+.aboutMe__description__span {
+  color: #20769e;
+}
+
 .aboutMe__aside {
   width: 100%;
 
@@ -85,7 +89,8 @@
     align-items: center;
     font-size: 20px;
   }
-  .bx {
+  .bx,
+  .fab {
     font-size: 50px;
   }
 }

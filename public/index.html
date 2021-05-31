@@ -41,16 +41,16 @@
         <li>
           <a
             class="headerMenu__link"
-            href="#main"
+            href="#about"
             alt=""
-            title="Haz clic aquí para ir a la seccion sobre mi"
+            title="Haz clic aquí para mas informacion sobre mi"
             >Sobre mi</a
           >
         </li>
         <li>
           <a
             class="headerMenu__link"
-            href="#main"
+            href="#projects"
             alt=""
             title="Haz clic aquí para ir a mis proyectos"
             >Proyectos</a
@@ -59,7 +59,7 @@
         <li>
           <a
             class="headerMenu__link"
-            href="#main"
+            href="#contact"
             alt=""
             title="Haz clic aquí para ir a mi contacto"
             >Contacto</a
@@ -74,24 +74,39 @@
   </header>
 
   <main class= "main">
-      <section class="aboutMe">
+      <section id = "about" class="aboutMe">
           <h1 class="aboutMe__title">¿Quien soy?</h2>
             <div  class="about__image1" >
                <img
-              src="./assets/images/foto.png"
+              src="./assets/images/avatar.jpg"
               alt="Foto Maribel López"
               title="Maribel López"
               class="about__image"
             />
           </div> 
-          <p class="aboutMe__description ">Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al
-              luctus ex diam nec lectus. Vivamuslorem Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al
-              luctus ex diam nec lectus. Vivamuslorem Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al
-              luctus ex diam nec lectus. Vivamuslorem Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al
-              luctus ex diam nec lectus. Vivamuslorem Donec accumsan, nulla ut volupat orttior, quam odio tempus felis, al
-              luctus ex diam nec lectus. Vivamuslorem
-              semper
-              sodales rutrum. </p>
+          <section class="aboutMe__description ">
+            
+            <p>
+              
+              ¡Hola! Soy Maribel, <span class = "aboutMe__description__span"> desarrolladora Front-end junior </span>, especializada en Javascript, React, HTML y CSS y aprendiendo tecnologias de back y bases de datos como NodeJS, Java, SQL, MongoDB entre otras.
+
+            </p>
+
+            <p>
+              
+              Soy una persona <span class = "aboutMe__description__span"> emprendedora, autodidacta y con gran capacidad de aprendizaje</span>, empecé a tener curiosidad por el mundo de la programación a raiz de trabajar como técnica de selección IT, y por ello decidi estudiar Front-end y he descubierto que me apasiona y quiero dedicarme a ello.
+
+
+
+            </p>
+            
+          <p>
+            
+            Gracias a mis estudios en<span class = "aboutMe__description__span"> psicologia, en el ambito de lo social, los recursos humanos y el género </span>  y mi experiencia laboral en estas áreas, tengo un perfil multidisciplinar, habiendo desarrollado muchas competencias que sin duda me sirven a dia de hoy para afrontar cualquier reto, competencias como la flexibilidad, trabajo en equipo, comunicacion, tolerancia a la incertidumbre y adaptacion a los cambios hacen que me sienta cómoda trabajando y pueda afrontar el trabajo de manera productiva.
+
+          </p>
+        
+          </section>
 
               <aside class= "aboutMe__aside">
 
@@ -124,6 +139,22 @@
                     <i class="bx bxl-git"alt="Icono de Git" title="Git"></i>
                     Git
                   </li>
+
+
+                  <li class= "icon">
+                    
+                    <i class="fab fa-node" alt="Icono de Nodejs" title="NodeJS"></i>
+                    NodeJS
+                  </li>
+
+                  <li class= "icon">
+                    
+                    <i class="fab fa-java" alt="Icono de Java" title="Java"></i>
+                    Java
+                  </li>
+                 
+
+                  
                  
                 </ul>
               </aside>
@@ -181,18 +212,18 @@
               title= ""
               alt= ""
               />
-              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              <p class="main__projects__carddescription js-text"> Web Anonymous Porxy responsive.</p>  
               </div>
-              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+              <h3 class="main__projects__cardTitle ">Anonymous Proxy</h3>
           
               <ul class= "main__projects__thechList">
-                  <li class= "main__projects__thechItem" >React</li>
-                  <li class= "main__projects__thechItem">JavaScript</li>
                   <li class= "main__projects__thechItem">HTML5</li>
                   <li class= "main__projects__thechItem">CSS</li>
+                  <li class= "main__projects__thechItem">SASS</li>
+                  <li class= "main__projects__thechItem">Scrum</li>
               </ul>
               <a
-              href=""
+              href="https://maribellopezromero.github.io/Anonymous-Proxy/"
               class="main__projects__web"
               alt="Enlace a la web"
               title="Ver la web"
@@ -200,7 +231,7 @@
               >Web</a
             >
             <a
-              href=""
+              href="https://github.com/MaribelLopezRomero/Anonymous-Proxy"
               class="main__projects__code"
               alt="Enlace a Github"
               title="Ver código"
@@ -213,22 +244,23 @@
           <li class="main__projects__card">
               <div class= "main__project__container js-image" id="2" >
               <img class= "main__projects__cardImage " 
-              src= "../assets/images/AwesomeReact.png"
-              title= ""
-              alt= ""
+              src= "../assets/images/montgomeryCards1.png"
+              title= "Proyecto montgomery cards"
+              alt= "Proyecto montgomery cards"
               />
-              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              <p class="main__projects__carddescription js-text"> Web app que permite crear tarjetas de presentación de forma interactiva.</p>  
               </div>
-              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+              <h3 class="main__projects__cardTitle ">Montgomery-Cards</h3>
           
               <ul class= "main__projects__thechList">
-                  <li class= "main__projects__thechItem" >React</li>
                   <li class= "main__projects__thechItem">JavaScript</li>
                   <li class= "main__projects__thechItem">HTML5</li>
                   <li class= "main__projects__thechItem">CSS</li>
+                  <li class= "main__projects__thechItem">SASS</li>
+                  <li class= "main__projects__thechItem">Scrum</li>
               </ul>
               <a
-              href=""
+              href="https://maribellopezromero.github.io/Montgomery-Cards/"
               class="main__projects__web"
               alt="Enlace a la web"
               title="Ver la web"
@@ -236,7 +268,7 @@
               >Web</a
             >
             <a
-              href=""
+              href="https://github.com/MaribelLopezRomero/Montgomery-Cards"
               class="main__projects__code"
               alt="Enlace a Github"
               title="Ver código"
@@ -250,22 +282,24 @@
               <div class= "main__project__container js-image" id="3" >
               <img class= "main__projects__cardImage " 
               
-              src= "../assets/images/montgomeryCards1.png"
-              title= ""
-              alt= ""
+              src= "../assets/images/AwesomeReact.png"
+              title= "Proyecto Badalabers"
+              alt= "Proyectos Badalabers"
               />
-              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              <p class="main__projects__carddescription js-text"> Refactoriazacion de codigo heradado del proyecto Montgomery Cards con React. </p>  
               </div>
-              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+              <h3 class="main__projects__cardTitle ">Badalabers</h3>
           
               <ul class= "main__projects__thechList">
-                  <li class= "main__projects__thechItem" >React</li>
+                  <li class= "main__projects__thechItem">React</li>
                   <li class= "main__projects__thechItem">JavaScript</li>
                   <li class= "main__projects__thechItem">HTML5</li>
                   <li class= "main__projects__thechItem">CSS</li>
+                  <li class= "main__projects__thechItem">SASS</li>
+                  <li class= "main__projects__thechItem">Scrum</li>
               </ul>
               <a
-              href=""
+              href="https://maribellopezromero.github.io/Montgomery-Cards/"
               class="main__projects__web"
               alt="Enlace a la web"
               title="Ver la web"
@@ -273,7 +307,7 @@
               >Web</a
             >
             <a
-              href=""
+              href="https://github.com/MaribelLopezRomero/Montgomery-Cards"
               class="main__projects__code"
               alt="Enlace a Github"
               title="Ver código"
@@ -287,21 +321,21 @@
               <div class= "  main__project__container js-image"id="4" >
               <img class= "main__projects__cardImage " 
               src= "../assets/images/mareaCoders.png"
-              title= ""
-              alt= ""
+              title= "Proyecto Marea Coders"
+              alt= "Proyecto Marea Coders"
               />
-              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              <p class="main__projects__carddescription js-text"> Web grupal responsive. Con diferentes navegaciones. </p>  
               </div>
-              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+              <h3 class="main__projects__cardTitle ">Marea Coders</h3>
           
               <ul class= "main__projects__thechList">
-                  <li class= "main__projects__thechItem" >React</li>
-                  <li class= "main__projects__thechItem">JavaScript</li>
-                  <li class= "main__projects__thechItem">HTML5</li>
-                  <li class= "main__projects__thechItem">CSS</li>
+                <li class= "main__projects__thechItem">HTML5</li>
+                <li class= "main__projects__thechItem">CSS</li>
+                <li class= "main__projects__thechItem">SASS</li>
+                <li class= "main__projects__thechItem">Scrum</li>
               </ul>
               <a
-              href=""
+              href="https://maribellopezromero.github.io/Marea-Coder/"
               class="main__projects__web"
               alt="Enlace a la web"
               title="Ver la web"
@@ -309,7 +343,7 @@
               >Web</a
             >
             <a
-              href=""
+              href="https://github.com/MaribelLopezRomero/Marea-Coder"
               class="main__projects__code"
               alt="Enlace a Github"
               title="Ver código"
@@ -322,22 +356,21 @@
               <div class= "main__project__container js-image" id="5" >
               <img class= "main__projects__cardImage " 
               
-              src= "../assets/images/RickyMorty1.png"
+              src= "../assets/images/montgomeryCards1.png"
               title= ""
               alt= ""
               />
-              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              <p class="main__projects__carddescription js-text"> Web app que busca series y filtra series, trayendoselas de un API y guardandolas en el local storage</p>  
               </div>
-              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+              <h3 class="main__projects__cardTitle ">Buscador de series</h3>
           
               <ul class= "main__projects__thechList">
-                  <li class= "main__projects__thechItem" >React</li>
                   <li class= "main__projects__thechItem">JavaScript</li>
                   <li class= "main__projects__thechItem">HTML5</li>
                   <li class= "main__projects__thechItem">CSS</li>
               </ul>
               <a
-              href=""
+              href="https://maribellopezromero.github.io/Buscador-de-series/?input=friends"
               class="main__projects__web"
               alt="Enlace a la web"
               title="Ver la web"
@@ -345,7 +378,7 @@
               >Web</a
             >
             <a
-              href=""
+              href="https://github.com/MaribelLopezRomero/Buscador-de-series"
               class="main__projects__code"
               alt="Enlace a Github"
               title="Ver código"
@@ -362,9 +395,9 @@
               title= ""
               alt= ""
               />
-              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado. </p>  
+              <p class="main__projects__carddescription js-text"> Web app responsive hecha con React y React Router que gestionar los correos que devuleve un api, filtrando y borrandolos. </p>  
               </div>
-              <h3 class="main__projects__cardTitle ">Ricky and Morty</h3>
+              <h3 class="main__projects__cardTitle ">Gmail-React</h3>
           
               <ul class= "main__projects__thechList">
                   <li class= "main__projects__thechItem" >React</li>
@@ -397,16 +430,16 @@
   <section class="contact" id="contact">
     <h2 class="contact__title">Contacto</h2>
     <p class="contact__description">
-      Si te han gustado mis proyectos y quieres que hablemos de desarollo web,
-      quizás quieres darme feedback, o mejor aún, estás buscando un perfil
-      frontend junior y crees que mi perfil profesional encaja en lo que buscas,
-      ¡no dudes en contactar conmigo!
+      Si te han gustado mis proyectos o mi perfil y te interesa que hablemos sobre
+      desarrollo web para darme feedback y hacer colaboraciones, o si estás
+      buscando un perfil como el mio y crees que mi encajo en lo que buscas, ¡no
+      dudes en contactar conmigo!.
     </p>
     <ul class="contact__list">
       <li class="contact__redes">
         <a
           class="contact__icono"
-          href="https://www.linkedin.com/in/yamiramartinguzman/"
+          href="https://www.linkedin.com/in/maribellopezromero/"
           alt="Icono de Linkedin"
           title="Perfil de Linkedin de Maribel"
           target="_blank"
@@ -416,7 +449,7 @@
       <li class="contact__redes">
         <a
           class="contact__icono"
-          href="https://github.com/ymartinguzman"
+          href="https://github.com/MaribelLopezRomero/"
           alt="Icono de Github"
           title="Perfil de Github de Maribel"
           target="_blank"
@@ -427,9 +460,9 @@
       <li class="contact__redes">
         <a
           class="contact__icono"
-          href="mailto:yamiramartinguzman@gmail.com"
+          href="mailto:maribel.romero.miv@gmail.com"
           alt="Icono de email"
-          title="Enviar email a Yamira"
+          title="Enviar email a Maribel"
           target="_blank"
           ><i class="bx bxs-envelope"></i
         ></a>
@@ -437,7 +470,7 @@
       <li class="contact__redes">
         <a
           class="contact__icono"
-          href=""
+          href="https://drive.google.com/file/d/1eJjd-FcQDFz70Puw3f2Zudt1gRzzbKQX/view?usp=sharing"
           alt="Icono de descargar CV"
           title="Descargar CV"
           target="_blank"
@@ -450,8 +483,8 @@
 
   <footer class="footer">
     <small class="footer__small">
-      <span class="footer__small__copyright"> ©2017</span>
-      <span class="footer__small__components">we ❤️ components </span>
+      <span class="footer__small__copyright"> ©2021</span>
+      <span class="footer__small__name">Maribel López Romero </span>
     </small>
   </footer>
 
