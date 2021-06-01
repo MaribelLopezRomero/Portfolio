@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0; }
 
+.body {
+  height: 100vh; }
+
 .header {
   width: 100%;
   height: 100vh;
@@ -20,7 +23,7 @@
 .header__menuNav__list {
   background-color: #20769e;
   width: 100%;
-  margin-top: 20px;
+  max-width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -110,18 +113,20 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 900px; }
+  height: auto; }
 
 .aboutMe__title {
   color: #20769e;
   font-family: "Roboto Slab", serif;
   font-size: 30px;
+  margin-top: 30px;
   margin-left: 4.687%;
   margin-right: 4.687%;
   margin-bottom: 15px; }
   @media all and (min-width: 768px) {
     .aboutMe__title {
       font-size: 45px;
+      margin-top: 30px;
       margin-left: 5.078%;
       margin-right: 5.078%;
       margin-bottom: 15px; } }
@@ -132,7 +137,8 @@
 
 .about__image1 {
   width: auto;
-  height: 200px; }
+  height: 200px;
+  margin-bottom: 30px; }
 
 .about__image {
   width: 100%;
@@ -167,9 +173,11 @@
 .aboutMe__aside {
   width: 100%; }
   .aboutMe__aside .aboutMe__aside__iconelist {
+    max-width: 100vw;
+    color: #20769e;
     display: flex;
     flex-direction: row;
-    color: #20769e;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; }
   .aboutMe__aside .icon {
@@ -183,12 +191,13 @@
 
 .main__projects {
   background-color: #faf6fe;
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 .main__projects__title {
   color: #20769e;
   font-family: "Roboto Slab", serif;
-  font-size: 24px;
+  font-size: 30px;
   text-transform: capitalize;
   text-align: center;
   font-weight: bold;
@@ -349,13 +358,20 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  height: 400px; }
+  height: auto; }
 
 .contact__title {
   padding: 40px 20px 30px;
-  font-size: 47px;
+  font-size: 30px;
   color: #20769e;
   font-family: "Roboto Slab", serif; }
+  @media all and (min-width: 768px) {
+    .contact__title {
+      padding: 20px 80px;
+      font-size: 47px; } }
+  @media all and (min-width: 1080px) {
+    .contact__title {
+      font-size: 47px; } }
 
 .contact__description {
   width: 80%;
@@ -363,21 +379,26 @@
   text-align: center;
   font-weight: 300;
   line-height: 1.5;
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
   @media all and (min-width: 768px) {
     .contact__description {
       max-width: 50%;
       font-size: 20px; } }
+  @media all and (min-width: 1080px) {
+    .contact__description {
+      font-size: 20px; } }
 
 .contact__list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  width: 100%;
+  max-width: 100vw; }
 
 .contact__icono {
-  size: 20px;
   text-decoration: none; }
 
 .bxl-linkedin-square,
@@ -385,11 +406,16 @@
 .bxs-envelope,
 .fa-download {
   text-decoration: none;
-  font-size: 5em;
-  padding: 0 20px;
   font-size: 3em;
+  padding: 0 20px;
   color: #20769e; }
   @media all and (min-width: 768px) {
+    .bxl-linkedin-square,
+    .bxl-github,
+    .bxs-envelope,
+    .fa-download {
+      font-size: 4em; } }
+  @media all and (min-width: 2080px) {
     .bxl-linkedin-square,
     .bxl-github,
     .bxs-envelope,

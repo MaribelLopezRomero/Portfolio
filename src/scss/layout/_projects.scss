@@ -2,15 +2,12 @@
   // background: $color-main-section-two;
   background-color: $color-background;
   width: 100%;
-  @media all and (min-width: 768px) {
-  }
-  @media all and (min-width: 1280px) {
-  }
+  height: auto;
 }
 .main__projects__title {
   color: #20769e;
   font-family: $font-family-title;
-  font-size: 24px;
+  font-size: 30px;
   text-transform: capitalize;
   text-align: center;
   // width: 90.625%;

@@ -4,25 +4,21 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  height: 400px;
-
-  @media all and (min-width: 768px) {
-    // padding-bottom: 85px;
-  }
+  height: auto;
 }
 .contact__title {
   padding: 40px 20px 30px;
-  font-size: 47px;
+  font-size: 30px;
   color: #20769e;
   font-family: $font-family-title;
   //text-shadow: 2px 2px 0px $color-primary;
-  // @media all and (min-width: 768px) {
-  //   padding: 20px 80px;
-  //   font-size: 70px;
-  // }
-  // @media all and (min-width: 1080px) {
-  //   font-size: 86px;
-  // }
+  @media all and (min-width: 768px) {
+    padding: 20px 80px;
+    font-size: 47px;
+  }
+  @media all and (min-width: 1080px) {
+    font-size: 47px;
+  }
 }
 
 .contact__description {
@@ -31,22 +27,27 @@
   text-align: center;
   font-weight: 300;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   @media all and (min-width: 768px) {
     max-width: 50%;
+    font-size: 20px;
+  }
+  @media all and (min-width: 1080px) {
     font-size: 20px;
   }
 }
 
 .contact__list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
   list-style: none;
+  width: 100%;
+  max-width: 100vw;
 }
 .contact__icono {
-  size: 20px;
   text-decoration: none;
 }
 .bxl-linkedin-square,
@@ -54,13 +55,17 @@
 .bxs-envelope,
 .fa-download {
   text-decoration: none;
-  font-size: 5em;
-  padding: 0 20px;
   font-size: 3em;
+  padding: 0 20px;
   color: #20769e;
+
   @media all and (min-width: 768px) {
     font-size: 4em;
   }
+  @media all and (min-width: 2080px) {
+    font-size: 4em;
+  }
+
   &:hover {
     transform: scale(1.2);
     transition: 0.5s linear;

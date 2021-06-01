@@ -1,5 +1,3 @@
-//Distribucion del main por secciones.
-
 .aboutMe {
   background: $color-main-section-one;
   display: flex;
@@ -7,11 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  height: 900px;
-  @media all and (min-width: 768px) {
-  }
-  @media all and (min-width: 1280px) {
-  }
+  height: auto;
 }
 
 .aboutMe__title {
@@ -19,11 +13,13 @@
   font-family: $font-family-title;
   font-size: 30px;
   // text-shadow: 2px 2px 0px #b8bd3a;
+  margin-top: 30px;
   margin-left: 4.687%;
   margin-right: 4.687%;
   margin-bottom: 15px;
   @media all and (min-width: 768px) {
     font-size: 45px;
+    margin-top: 30px;
     margin-left: 5.078%;
     margin-right: 5.078%;
     margin-bottom: 15px;
@@ -36,9 +32,7 @@
 .about__image1 {
   width: auto;
   height: 200px;
-  // @media all and (min-width: 1280px) {
-  //   display: inline-block;
-  // }
+  margin-bottom: 30px;
 }
 .about__image {
   width: 100%;
@@ -76,9 +70,11 @@
   width: 100%;
 
   .aboutMe__aside__iconelist {
+    max-width: 100vw;
+    color: #20769e;
     display: flex;
     flex-direction: row;
-    color: #20769e;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
   }
