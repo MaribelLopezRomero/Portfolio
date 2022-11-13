@@ -11,14 +11,17 @@
   align-items: center;
   justify-content: center;
   //background: linear-gradient(to bottom, blue, white);
-  background: linear-gradient(90deg, #3e5c7e 0%, #dc7082 100%);
+  //background: linear-gradient(90deg, #3e5c7e 0%, #dc7082 100%);
   //background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
 
-  // background-image: url("../images/ordenadorfondo.png");
-  // background-size: cover;
-  // background-position: center;
+  background-image: url("../images/ordenadorfondo.png");
+  background-size: cover;
+  background-position: center;
   // background-color: #c09fe2;
-  // background-color: #20769e;
+  // background-color: #6191a8;
+  //  background-color: #bfc97f;
+
+  background-color: #6a9bbe;
 
   background-blend-mode: multiply;
 }

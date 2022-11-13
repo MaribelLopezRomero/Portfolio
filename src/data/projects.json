@@ -1,0 +1,27 @@
+{
+    
+
+        "id":0,
+    "img":[
+        {
+            "src":"./assets/images/RickyMorty1.jpg",
+            "title":"Proyecto RickyMorty",
+            "alt":"Proyecto RickyMorty"
+
+        }
+    
+    ],
+
+    "descipcion" :" Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado.",
+
+    "titulo": "Ricky and Morty",
+
+    "tecnologias": ["React", "JavaScript", "HTML5", "CSS"],
+    
+    "hrefWeb": "",
+
+    "hrefGiHub":""
+
+
+
+}
