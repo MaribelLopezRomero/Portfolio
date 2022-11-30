@@ -28,23 +28,129 @@ const projects = [
     id: 1,
     img: [
       {
-        src: "./assets/images/RickyMorty1.jpg",
-        title: "Proyecto RickyMorty",
-        alt: "Proyecto RickyMorty",
+        src: "./assets/images/gmail.jpg",
+        title: "Proyecto de gmail-react",
+        alt: "Proyecto de gmail-react",
       },
     ],
 
     descripcion:
-      " Web app responsive hecha con React y React Router que filtra personajes de la serie y muestra los detalles del personaje seleccionado.",
+      " Web app responsive hecha con React y React Router que gestionar los correos que devuleve un api, filtrando y borrandolos.",
 
-    titulo: "Ritikjghjkgcky and Morty",
+    titulo: "Gmail-React",
 
     tecnologias: ["React", "JavaScript", "HTML5", "CSS"],
 
-    hrefWeb: "",
+    hrefWeb: "https://maribellopezromero.github.io/Gmail-React/",
 
-    hrefGitHub: "",
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Gmail-React",
   },
+  {
+    id: 2,
+    img: [
+      {
+        src:"./assets/images/montgomeryCards1.jpg",
+        title:"Proyecto montgomery cards",
+        alt:"Proyecto montgomery cards",
+      },
+    ],
+
+    descripcion:
+      " Web app que permite crear tarjetas de presentación de forma interactiva.",
+
+    titulo: "Montgomery-Cards",
+
+    tecnologias: ["JavaScript", "HTML5", "CSS", "SASS", "Scrum"],
+
+    hrefWeb: "https://maribellopezromero.github.io/Montgomery-Cards/",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Montgomery-Cards",
+  },
+  {
+    id: 3,
+    img: [
+      {
+        src:"./assets/images/AwesomeReact.jpg",
+        title:"Proyecto Badalabers",
+        alt:"Proyectos Badalabers",
+      },
+    ],
+
+    descripcion:
+      " Refactoriazacion de codigo heradado del proyecto Montgomery Cards con React.",
+
+    titulo: "Badalabers",
+
+    tecnologias: ["React", "JavaScript", "HTML5", "CSS", "SASS", "Scrum"],
+
+    hrefWeb: "https://maribellopezromero.github.io/Montgomery-Cards/",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Montgomery-Cards",
+  },
+  {
+    id: 4,
+    img: [
+      {
+        src:"./assets/images/series.jpg",
+        title:"Proyecto buscador de series",
+        alt:"Proyecto buscador de series",
+      },
+    ],
+
+    descripcion:
+      "Web app que busca series y filtra series, trayendoselas de un API y guardandolas en el local storage",
+
+    titulo: "Buscador de series",
+
+    tecnologias: ["JavaScript", "HTML5", "CSS"],
+
+    hrefWeb: "https://maribellopezromero.github.io/Buscador-de-series/?input=friends",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Buscador-de-series",
+  },
+
+  {
+    id: 5,
+    img: [
+      {
+        src: "./assets/images/mareaCoders.jpg",
+        title: "Proyecto Marea Coders",
+        alt: "Proyecto Marea Coders",
+      },
+    ],
+
+    descripcion:
+    "Web grupal responsive. Con diferentes navegaciones.",
+
+    titulo: "Marea Coders",
+
+    tecnologias: ["HTML5", "CSS", "SASS", "Scrum"],
+
+    hrefWeb: "https://maribellopezromero.github.io/Marea-Coder/",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Marea-Coder",
+  },
+  {
+    id: 6,
+    img: [
+      {
+        src: "./assets/images/anonimus1.jpg",
+        title: "Proyecto Anonymous-Proxy",
+        alt: "Proyecto Anonymous-Proxy",
+      },
+    ],
+
+    descripcion:" Web Anonymous Porxy responsive.",
+
+    titulo: "Anonymous Proxy",
+
+    tecnologias: ["HTML5", "CSS", "SASS", "Scrum"],
+
+    hrefWeb: "https://maribellopezromero.github.io/Anonymous-Proxy/",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Anonymous-Proxy",
+  },
+ 
 ];
 
 // fetch("projects.json")
