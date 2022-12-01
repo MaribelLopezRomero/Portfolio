@@ -7,6 +7,46 @@ const projects = [
     id: 0,
     img: [
       {
+        src: "./assets/images/anonimus1.jpg",
+        title: "Proyecto Anonymous-Proxy",
+        alt: "Proyecto Anonymous-Proxy",
+      },
+    ],
+
+    descripcion:"Web app hecha con Java y mySQL que muestra peliculas y series por genero, sus detalles y favoritos segun usuario logeado.",
+
+    titulo: "Nerdflix en Java",
+
+    tecnologias: ["HTML5", "CSS", "Java", "Tomcat", "SQL"],
+
+    hrefWeb: "https://nerdflixbaroja.herokuapp.com/",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/NerdFlixJava.git",
+  },
+  {
+    id: 0,
+    img: [
+      {
+        src: "./assets/images/anonimus1.jpg",
+        title: "Proyecto Anonymous-Proxy",
+        alt: "Proyecto Anonymous-Proxy",
+      },
+    ],
+
+    descripcion:"Web app hecha con React, NodeJS y SQL que muestra peliculas y series por genero, sus detalles y favoritos segun usuario logeado.",
+
+    titulo: "Nerdflix en React",
+
+    tecnologias: ["HTML5", "CSS", "React", "NodeJS", "SQL"],
+
+    hrefWeb: "",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Nerdflix-React-Node.git",
+  },
+  {
+    id: 0,
+    img: [
+      {
         src: "./assets/images/RickyMorty1.jpg",
         title: "Proyecto RickyMorty",
         alt: "Proyecto RickyMorty",
@@ -25,6 +65,48 @@ const projects = [
     hrefGitHub: "",
   },
   {
+    id: 0,
+    img: [
+      {
+        src: "./assets/images/RickyMorty1.jpg",
+        title: "Proyecto RickyMorty",
+        alt: "Proyecto RickyMorty",
+      },
+    ],
+
+    descripcion:
+      "Web hecha en PHP que muestra el calendario escolar segun el año que indiques, sus festivos y vacaciones",
+
+    titulo: "Calendario Escolar",
+
+    tecnologias: ["PHP", "HTML5", "CSS"],
+
+    hrefWeb: "",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/Calendario_PHP.git",
+  },
+  {
+    id: 0,
+    img: [
+      {
+        src: "./assets/images/RickyMorty1.jpg",
+        title: "Proyecto RickyMorty",
+        alt: "Proyecto RickyMorty",
+      },
+    ],
+
+    descripcion:
+      "Web responsive Travel World en progreso. Se pretende refactorizar a React y Nodejs para hacer una WEB APP",
+
+    titulo: "TravelWorld",
+
+    tecnologias:  ["HTML5", "CSS", "Javascript"],
+
+    hrefWeb: " https://maribellopezromero.github.io/TravelWorld/",
+
+    hrefGitHub: "https://github.com/MaribelLopezRomero/TravelWorld.git",
+  },
+  {
     id: 1,
     img: [
       {
@@ -35,7 +117,7 @@ const projects = [
     ],
 
     descripcion:
-      " Web app responsive hecha con React y React Router que gestionar los correos que devuleve un api, filtrando y borrandolos.",
+      "Web app responsive hecha con React y React Router que gestionar los correos que devuleve un api, filtrando y borrandolos.",
 
     titulo: "Gmail-React",
 
