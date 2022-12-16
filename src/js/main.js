@@ -7,13 +7,14 @@ const projects = [
     id: 0,
     img: [
       {
-        src: "./assets/images/anonimus1.jpg",
+        src: "./assets/images/nerdflix.jpg",
         title: "Proyecto Anonymous-Proxy",
         alt: "Proyecto Anonymous-Proxy",
       },
     ],
 
-    descripcion:"Web app hecha con Java y mySQL que muestra peliculas y series por genero, sus detalles y favoritos segun usuario logeado.",
+    descripcion:
+      "Web app hecha con Java y MySQL que muestra peliculas y series por genero, sus detalles y favoritos segun usuario logeado.",
 
     titulo: "Nerdflix en Java",
 
@@ -24,16 +25,17 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/NerdFlixJava.git",
   },
   {
-    id: 0,
+    id: 1,
     img: [
       {
-        src: "./assets/images/anonimus1.jpg",
+        src: "./assets/images/nerdflix.jpg",
         title: "Proyecto Anonymous-Proxy",
         alt: "Proyecto Anonymous-Proxy",
       },
     ],
 
-    descripcion:"Web app hecha con React, NodeJS y SQL que muestra peliculas y series por genero, sus detalles y favoritos segun usuario logeado.",
+    descripcion:
+      "Web app hecha con React, NodeJS y SQL que muestra peliculas y series por genero, sus detalles y favoritos segun usuario logeado.",
 
     titulo: "Nerdflix en React",
 
@@ -44,7 +46,7 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/Nerdflix-React-Node.git",
   },
   {
-    id: 0,
+    id: 2,
     img: [
       {
         src: "./assets/images/RickyMorty1.jpg",
@@ -65,10 +67,10 @@ const projects = [
     hrefGitHub: "",
   },
   {
-    id: 0,
+    id: 3,
     img: [
       {
-        src: "./assets/images/RickyMorty1.jpg",
+        src: "./assets/images/calendario_php.jpg",
         title: "Proyecto RickyMorty",
         alt: "Proyecto RickyMorty",
       },
@@ -86,10 +88,10 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/Calendario_PHP.git",
   },
   {
-    id: 0,
+    id: 4,
     img: [
       {
-        src: "./assets/images/RickyMorty1.jpg",
+        src: "./assets/images/travelWorld.jpg",
         title: "Proyecto RickyMorty",
         alt: "Proyecto RickyMorty",
       },
@@ -100,14 +102,14 @@ const projects = [
 
     titulo: "TravelWorld",
 
-    tecnologias:  ["HTML5", "CSS", "Javascript"],
+    tecnologias: ["HTML5", "CSS", "Javascript"],
 
     hrefWeb: " https://maribellopezromero.github.io/TravelWorld/",
 
     hrefGitHub: "https://github.com/MaribelLopezRomero/TravelWorld.git",
   },
   {
-    id: 1,
+    id: 5,
     img: [
       {
         src: "./assets/images/gmail.jpg",
@@ -128,12 +130,12 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/Gmail-React",
   },
   {
-    id: 2,
+    id: 6,
     img: [
       {
-        src:"./assets/images/montgomeryCards1.jpg",
-        title:"Proyecto montgomery cards",
-        alt:"Proyecto montgomery cards",
+        src: "./assets/images/montgomeryCards1.jpg",
+        title: "Proyecto montgomery cards",
+        alt: "Proyecto montgomery cards",
       },
     ],
 
@@ -149,12 +151,12 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/Montgomery-Cards",
   },
   {
-    id: 3,
+    id: 7,
     img: [
       {
-        src:"./assets/images/AwesomeReact.jpg",
-        title:"Proyecto Badalabers",
-        alt:"Proyectos Badalabers",
+        src: "./assets/images/AwesomeReact.jpg",
+        title: "Proyecto Badalabers",
+        alt: "Proyectos Badalabers",
       },
     ],
 
@@ -170,12 +172,12 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/Montgomery-Cards",
   },
   {
-    id: 4,
+    id: 8,
     img: [
       {
-        src:"./assets/images/series.jpg",
-        title:"Proyecto buscador de series",
-        alt:"Proyecto buscador de series",
+        src: "./assets/images/series.jpg",
+        title: "Proyecto buscador de series",
+        alt: "Proyecto buscador de series",
       },
     ],
 
@@ -186,13 +188,14 @@ const projects = [
 
     tecnologias: ["JavaScript", "HTML5", "CSS"],
 
-    hrefWeb: "https://maribellopezromero.github.io/Buscador-de-series/?input=friends",
+    hrefWeb:
+      "https://maribellopezromero.github.io/Buscador-de-series/?input=friends",
 
     hrefGitHub: "https://github.com/MaribelLopezRomero/Buscador-de-series",
   },
 
   {
-    id: 5,
+    id: 9,
     img: [
       {
         src: "./assets/images/mareaCoders.jpg",
@@ -201,8 +204,7 @@ const projects = [
       },
     ],
 
-    descripcion:
-    "Web grupal responsive. Con diferentes navegaciones.",
+    descripcion: "Web grupal responsive. Con diferentes navegaciones.",
 
     titulo: "Marea Coders",
 
@@ -213,7 +215,7 @@ const projects = [
     hrefGitHub: "https://github.com/MaribelLopezRomero/Marea-Coder",
   },
   {
-    id: 6,
+    id: 10,
     img: [
       {
         src: "./assets/images/anonimus1.jpg",
@@ -222,7 +224,7 @@ const projects = [
       },
     ],
 
-    descripcion:" Web Anonymous Porxy responsive.",
+    descripcion: " Web Anonymous Porxy responsive.",
 
     titulo: "Anonymous Proxy",
 
@@ -232,7 +234,6 @@ const projects = [
 
     hrefGitHub: "https://github.com/MaribelLopezRomero/Anonymous-Proxy",
   },
- 
 ];
 
 // fetch("projects.json")

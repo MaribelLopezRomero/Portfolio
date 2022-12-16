@@ -125,7 +125,7 @@
   margin-top: 30px;
   margin-left: 4.687%;
   margin-right: 4.687%;
-  margin-bottom: 15px; }
+  margin-bottom: 35px; }
   @media all and (min-width: 768px) {
     .aboutMe__title {
       font-size: 45px;
@@ -254,6 +254,7 @@
 
 .main__projects__cardImage {
   width: 100%;
+  height: 220px;
   max-height: 300px;
   border-radius: 20px;
   -o-object-fit: cover;
@@ -334,7 +335,7 @@
   color: black;
   opacity: 0.9;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
   transition: 1s ease-in-out;
